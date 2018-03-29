@@ -23,6 +23,7 @@ module.exports = {
       resolve: 'gatsby-source-wordpress',
       options: {
         // The base url to your WP site.
+        //baseUrl: 'erntedankfest-heidesheim.de',
         baseUrl: 'ericwindmill.host',
         // WP.com sites set to true, WP.org set to false
         hostingWPCOM: false,
