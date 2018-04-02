@@ -10,6 +10,7 @@ class PostTemplate extends Component {
             <div>
                 <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                <img src={post.featured_media.source_url} />
             </div>
         )
     }
@@ -23,6 +24,9 @@ export const pageQuery = graphql`
         wordpressPost(id: { eq: $id }) {
             title
             content
+            featured_media {
+                source_url
+            }
         }
         site {
             siteMetadata {

@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: 'Wordpress Gatsby',
-        subtitle: `Fetch Data From WP Install`,
+        title: 'Fotografien – Johannes Wilhelm',
+        subtitle: `Lorem-ipsum`,
     },
     plugins: [
         'gatsby-plugin-react-helmet',
